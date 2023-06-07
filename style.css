@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial;
+}
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(pexels-pixabay-235986.jpg) no-repeat center center/ cover;
+}
+
+.container{
+    width: 550px;
+    height: 450px;
+}
+
+.header{
+    font-size: 1.2rem;
+    border: solid 4px #fff;
+    color: #fff;
+    background-color: #262626;
+    padding: 5px;
+    width: 80%;
+    margin: 20px auto;
+    
+
+}
+.main-container{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    box-shadow: 0 0 70px gold;
+
+}
+
+.main-container .textarea{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+
+}
+
+.main-container .person{
+    font-size: 1.9rem;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.button-area button{
+    font-size: 1.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 8px;
+    color: lightcyan;
+    background-color: black;
+    padding : 5px 4px;
+    margin: 20px auto;
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+    
+
+}
+.button-area button:active{
+    background-color: lightblue;
+}
